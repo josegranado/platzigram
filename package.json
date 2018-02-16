@@ -1,11 +1,8 @@
 {
   "name": "platzigram",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Un lugar donde compartes tus fotos más felices en Platzi",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/josegranado/platzigram.git"
@@ -20,6 +17,7 @@
   },
   "homepage": "https://github.com/josegranado/platzigram#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "materialize-css": "^0.100.2"
   }
 }
