@@ -1,0 +1,2 @@
+# platzigram
+Práctica de platzi
