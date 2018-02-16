@@ -1,0 +1,25 @@
+{
+  "name": "platzigram",
+  "version": "1.0.0",
+  "description": "Un lugar donde compartes tus fotos más felices en Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josegranado/platzigram.git"
+  },
+  "keywords": [
+    "Platzigram"
+  ],
+  "author": "José Granado <Jose.granado2014@gmail.com> (https://www.twitter.com/aboutkanes)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josegranado/platzigram/issues"
+  },
+  "homepage": "https://github.com/josegranado/platzigram#readme",
+  "dependencies": {
+    "materialize-css": "^0.100.2"
+  }
+}
