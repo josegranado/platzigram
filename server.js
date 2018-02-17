@@ -6,7 +6,9 @@ app.set('view engine','pug');
 
 app.use('/public',express.static('public'));
 
-app.get('/', (req, res) => 
+
+
+app.get(['/', '/signup', '/signin'], (req, res) => 
 {
     res.render('index');
 });
