@@ -1,1 +1,7 @@
 node_modules
+node_modules/hammerjs
+node_modules/jquery
+node_modules/materialize_css
+node_modules/hammerjs/package.json
+node_modules/jquery/package.json
+node_modules/materialize-css/package.json
