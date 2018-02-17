@@ -75,7 +75,7 @@ gulp.task('watch', () =>
 */
 gulp.task('default',['styles','assets','scripts'], () =>
 {
-    gulp.watch(['./src/*.js','./views/*.pug', './*.sass','./assets/*/*'],
+    gulp.watch(['./src/*.js','./views/*.pug', './*.sass','./assets/*/*','./src/*/*.js'],
                 ['styles','assets','scripts'],
                 (ev) => console.log(`Event ${ev.type} ended`))
             
