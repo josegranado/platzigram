@@ -1330,6 +1330,4 @@ page('/signup', function (ctx, next) {
 
 page();
 
-console.log($main);
-
 },{"page":2}]},{},[5]);
