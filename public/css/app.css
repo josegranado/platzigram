@@ -6915,27 +6915,61 @@ body {
   background: #fafafa;
   color: #125688;
   font-family: 'Montserrat'; }
-  body #main-container {
+  body .signup, body .signin {
     margin: 30px auto; }
-    body #main-container .iphone {
-      max-width: 100%; }
-    body #main-container .login-box, body #main-container .signup-box {
-      background-color: white;
-      border: 1px solid #edeeee;
-      border-radius: 3px;
-      padding: 10px 0px;
-      text-align: center; }
-      body #main-container .login-box .platzigram, body #main-container .signup-box .platzigram {
-        font-family: 'Oleo Script';
-        font-size: 42px; }
-    body #main-container .signup-form {
-      width: 65%;
-      margin: 0 auto; }
-      body #main-container .signup-form h2 {
-        color: #a5a7aa;
-        font-size: 1.2em; }
-      body #main-container .signup-form .btn.btn-signup, body #main-container .signup-form .btn-signup.btn-large {
-        background: #125688; }
+  body #main-container .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 12px; }
+  body #main-container .liked .far {
+    display: none; }
+  body #main-container .liked .fas {
+    display: block; }
+  body #main-container .disliked .far {
+    display: block; }
+  body #main-container .disliked .fas {
+    display: none; }
+  body #main-container .card small.time {
+    line-height: 48px; }
+  body #main-container .card p {
+    padding: 20px 0; }
+  body #main-container .card .likes {
+    line-height: 30px;
+    margin-left: 12px; }
+  body #main-container .card i {
+    font-size: 30px; }
+  body #main-container .card .fa-heart {
+    color: #125688; }
+  body #main-container .iphone {
+    max-width: 100%; }
+  body #main-container .login-box, body #main-container .signup-box {
+    background-color: white;
+    border: 1px solid #edeeee;
+    border-radius: 3px;
+    padding: 10px 0px;
+    text-align: center; }
+  body #main-container .platzigram {
+    font-family: 'Oleo Script' !important;
+    font-size: 42px; }
+  body #main-container .signup-form {
+    width: 65%;
+    margin: 0 auto; }
+    body #main-container .signup-form h2 {
+      color: #a5a7aa;
+      font-size: 1.2em; }
+    body #main-container .signup-form .btn.btn-signup, body #main-container .signup-form .btn-signup.btn-large {
+      background: #125688; }
+  body #main-container .header {
+    background-color: white;
+    color: #125688;
+    box-shadow: none;
+    border-bottom: 1px solid #edeeee; }
+    body #main-container .header .platzigram {
+      color: #125688; }
+  body #main-container .timeline {
+    padding: 30px 0; }
   body .btn.btn-fb, body .btn-fb.btn-large {
     background-color: #4090db;
     font-size: .9em; }

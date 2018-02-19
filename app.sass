@@ -1,13 +1,42 @@
 $secondary-color: #125688
-
+$avatar-size: 48px
 @import "node_modules/materialize-css/sass/materialize.sass"
 
 body 
     background: #fafafa
     color: $secondary-color
     font-family: 'Montserrat'
-    #main-container
+    .signup,.signin
         margin: 30px auto
+    #main-container
+        .avatar
+            width: $avatar-size
+            height: $avatar-size
+            border-radius: 50%
+            float: left
+            margin-right: 12px
+        .liked
+            .far
+                display: none
+            .fas
+                display: block
+        .disliked
+            .far 
+                display: block
+            .fas
+                display: none
+        .card 
+            small.time
+                line-height: $avatar-size
+            p
+                padding: 20px 0
+            .likes
+                line-height: 30px
+                margin-left: 12px
+            i
+                font-size: 30px
+            .fa-heart
+                color: $secondary-color
         .iphone
             max-width: 100%
         .login-box, .signup-box
@@ -16,9 +45,9 @@ body
             border-radius: 3px
             padding: 10px 0px
             text-align: center
-            .platzigram
-                font-family: 'Oleo Script'
-                font-size: 42px
+        .platzigram
+            font-family: 'Oleo Script' !important
+            font-size: 42px
         .signup-form
             width: 65%
             margin: 0 auto
@@ -26,7 +55,16 @@ body
                 color: #a5a7aa
                 font-size: 1.2em
             .btn.btn-signup
-                background: #125688
+                background: $secondary-color
+        .header 
+            background-color: white
+            color: $secondary-color
+            box-shadow: none
+            border-bottom: 1px solid #edeeee
+            .platzigram
+                color: $secondary-color
+        .timeline
+            padding: 30px 0
     .btn.btn-fb
         background-color: #4090db
         font-size: .9em
