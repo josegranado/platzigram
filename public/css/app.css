@@ -6931,6 +6931,8 @@ body {
     display: block; }
   body #main-container .disliked .fas {
     display: none; }
+  body #main-container .card .card-content a {
+    color: #125688; }
   body #main-container .card small.time {
     line-height: 48px; }
   body #main-container .card p {
@@ -6950,9 +6952,6 @@ body {
     border-radius: 3px;
     padding: 10px 0px;
     text-align: center; }
-  body #main-container .platzigram {
-    font-family: 'Oleo Script' !important;
-    font-size: 42px; }
   body #main-container .signup-form {
     width: 65%;
     margin: 0 auto; }
@@ -6961,15 +6960,17 @@ body {
       font-size: 1.2em; }
     body #main-container .signup-form .btn.btn-signup, body #main-container .signup-form .btn-signup.btn-large {
       background: #125688; }
-  body #main-container .header {
+    body #main-container .signup-form .timeline {
+      padding: 30px 0; }
+  body .header {
     background-color: white;
     color: #125688;
     box-shadow: none;
     border-bottom: 1px solid #edeeee; }
-    body #main-container .header .platzigram {
-      color: #125688; }
-  body #main-container .timeline {
-    padding: 30px 0; }
+  body .platzigram {
+    color: #125688;
+    font-family: 'Oleo Script' !important;
+    font-size: 42px; }
   body .btn.btn-fb, body .btn-fb.btn-large {
     background-color: #4090db;
     font-size: .9em; }

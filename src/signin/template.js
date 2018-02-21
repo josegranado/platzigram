@@ -1,5 +1,6 @@
 const yo = require('yo-yo');
 const landing = require('../landing');
+const translate = require('../translate');
 
 var $signinForm = yo` 
             <div class="signin col s12 m7">
@@ -7,25 +8,25 @@ var $signinForm = yo`
                     <div class="signup-box">
                         <h1 class="platzigram">Platzigram</h1>
                         <form action="" class="signup-form">
-                            <h2>Regístrate para ver fotos de tus amigos estudiando en Platzi.</h2>
+                            <h2>${translate.message('signup.subheading')}</h2>
                             <div class="section">
                                 <a href="" class="btn btn-fb hiden-on-small-only">
                                 <i class="fab fa-facebook" aria-hidden="true"></i> 
-                                Iniciar sesión con facebook.</a>
+                                ${translate.message('signup.facebook')}</a>
                                 
                             </div>
                             <div class="divider"></div>
                             <div class="section">
-                                <input type="text" name="username" placeholder="Nombre de usuario">
-                                <input type="password" name="password" placeholder="Contraseña">
-                                <button class="btn btn-signup waves-effect waves-light" type="submit">Iniciar sesión</button>
+                                <input type="text" name="username" placeholder="${translate.message('username')}">
+                                <input type="password" name="password" placeholder="${translate.message('password')}">
+                                <button class="btn btn-signup waves-effect waves-light" type="submit">${translate.message('signup.text')}</button>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="row">
                     <div class="login-box">
-                        ¿No tienes una cuenta? <a href="/signup">Entrar</a>
+                        ${translate.message('signin.not-have-account')} <a href="/signup">${translate.message('signin')}</a>
                     </div>
                 </div>
             </div>

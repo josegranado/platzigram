@@ -26,6 +26,9 @@ body
             .fas
                 display: none
         .card 
+            .card-content
+                a
+                    color: $secondary-color
             small.time
                 line-height: $avatar-size
             p
@@ -45,9 +48,6 @@ body
             border-radius: 3px
             padding: 10px 0px
             text-align: center
-        .platzigram
-            font-family: 'Oleo Script' !important
-            font-size: 42px
         .signup-form
             width: 65%
             margin: 0 auto
@@ -56,15 +56,18 @@ body
                 font-size: 1.2em
             .btn.btn-signup
                 background: $secondary-color
-        .header 
-            background-color: white
-            color: $secondary-color
-            box-shadow: none
-            border-bottom: 1px solid #edeeee
-            .platzigram
-                color: $secondary-color
-        .timeline
-            padding: 30px 0
+            .timeline
+                padding: 30px 0
+    .header 
+        background-color: white
+        color: $secondary-color
+        box-shadow: none
+        border-bottom: 1px solid #edeeee
+    .platzigram
+        color: $secondary-color
+        font-family: 'Oleo Script' !important
+        font-size: 42px
+        
     .btn.btn-fb
         background-color: #4090db
         font-size: .9em
